@@ -1,10 +1,10 @@
-# 🛠️ Bash Admin Toolkit
+# Bash Admin Toolkit
 
 A collection of production-grade Bash scripts for Linux server administration and DevOps automation.
 
 ## Scripts
 
-### 📦 `backup.sh` — Directory Backup with Rotation
+### `backup.sh` — Directory Backup with Rotation
 
 Creates compressed `.tar.gz` archives with automatic cleanup of old backups.
 
@@ -26,7 +26,7 @@ Features:
 
 ---
 
-### 💽 `disk-monitor.sh` — Disk Usage Monitor
+### `disk-monitor.sh` — Disk Usage Monitor
 
 Checks all mounted filesystems and alerts when usage exceeds threshold.
 
@@ -47,7 +47,7 @@ Cron example (run every hour):
 
 ---
 
-### 🐳 `docker-cleanup.sh` — Docker Resource Cleanup
+### `docker-cleanup.sh` — Docker Resource Cleanup
 
 Removes unused containers, images, volumes, networks, and build cache.
 
